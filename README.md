@@ -1,4 +1,4 @@
-<hr>
+---
 # Machine Learning Concepts
 	## Approaches
 		- Learning classifier systems
@@ -64,7 +64,7 @@
 	## Kind
 		- Parametric
 		- Non-Parametric
-<hr>
+---
 # Machine Learning Process
 	## Data
 		- Build Datasets
@@ -126,7 +126,7 @@
 		- Can the infrastructure running the machine learning process scale?
 		- How is access to the ML algorithm provided? REST API? SDK?
 
-<hr>
+---
 # Machine Learning Models
 	## Instance Based
 		- Self-Organising Map (SOM)
@@ -209,7 +209,7 @@
 			- Naive Bayes Classifier
 		- Multinominal Naive Bayes
 
-<hr>
+---
 # Machine Learning Mathematics
 	## Cost/Lost(Min) Objective(Max) Functions
 		- Kullback-geibier Divergence
@@ -289,7 +289,7 @@
 		- Definition
 		- Type (Density Function)
 
-<hr>
+---
 # Machine Learning Data Processing
 	## Feature Engineering
 		- Reframe Numerical Quantities
