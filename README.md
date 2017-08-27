@@ -1,6 +1,6 @@
 ---
 # Machine Learning Concepts
-  ## Approaches
+  ### Approaches
   - Learning classifier systems
   - Rule-based machine learning
   - Genetic algorithms
@@ -16,10 +16,10 @@
   - Artificial neural networks
   - Decision tree learning
   - Association rule learning
-  ## Motivation
+  ### Motivation
   - Prediction
   - Inference
-  ## Performance Analysis
+  ### Performance Analysis
   - Goodness of Fit = R^2
   - Bias-Variance Tradeoff
 - ROC Curve - Receiver Operating Characteristics
@@ -31,15 +31,15 @@
     - Harmonic Mean of Precision and Recall
   - Mean Squared Error (MSE)
   - Error Rate
-  ## Taxonomy
-  ## Selection Criteria
-  ## Types
+  ### Taxonomy
+  ### Selection Criteria
+  ### Types
   - Regression
   - Classification
   - Clustering
   - Density Estimation
   - Dimensionality Reduction
-  ## Tuning
+  ### Tuning
   - Bagging
   - Underfitting
   - Early Stopping
@@ -47,7 +47,7 @@
   - Hyperparameters
   - Overfitting
   - Bootstrap
-  ## Libraries
+  ### Libraries
   - Python
     - Microsoft Cognitive Toolkit
     - Torch
@@ -57,16 +57,16 @@
     - Numpy
     - Pandas
     - Tensorflow
-  ## Categories
+  ### Categories
   - Supervised
   - Unsupervised
   - Reinforcement Learning
-  ## Kind
+  ### Kind
   - Parametric
   - Non-Parametric
 ---
 # Machine Learning Process
-  ## Data
+  ### Data
   - Build Datasets
     - Machine Learning is math. In specific, performing Linear Algebra on Matrices. Our data values must be numeric.
   - Encode Features
@@ -77,22 +77,22 @@
   - Collect
   - Explore
   - Clean Features
-  ## Question
+  ### Question
   - Reinforcement Learning: What should I do now?
   - Anomaly Detection: Is this anomalous?
   - Classification: Is this A or B?
   - Regression: How much, or how many of these?
   - Clustering: How can these elements be grouped?
-  ## Model
+  ### Model
   - Select Algorithm based on question and data available
-  ## Cost Function
+  ### Cost Function
   - The cost function will provide a measure of how far my algorithm and its parameters are from accurately representing my training data.
   - Sometimes referred to as Cost or Loss function when the goal is to minimize it, or Objective function when the goal is to maximize it.
-  ## Results and Benchmarking
-  ## Optimization
+  ### Results and Benchmarking
+  ### Optimization
   - Having selected a cost function, we need a method to minimize the Cost function, or maximize the Objective function when the goal is to maximize it.
   - The cost function will provide a measure of how far my algorithm and its parameters are from accurately representing my training data.
-  ## Direction
+  ### Direction
   - Machine Learning Research
   - SaaS: Pre-built Machine Learning models
     - ...many others
@@ -114,32 +114,32 @@
     - AWS
       - Amazon Machine Learning
     - ...many others
-  ## Tuning
+  ### Tuning
   - Different Algorithms have different Hyperparameters, which will affect the algorithms performance. There are multiple methods for Hyperparameter Tuning, such as Grid and Random search.
-  ## Scaling
+  ### Scaling
   - How does my algorithm scale for both training and inference?
-  ## Deployment and Operationalization
+  ### Deployment and Operationalization
   - How can feature manipulation be done for training and inference in real-time?
   - How to make sure that the algorithm is retrained periodically and deployed
-  ## Infrastructure
+  ### Infrastructure
   - Is the infrastructure adapter to be the algorithm we are running? Should GPUs be considered rather than CPUs?
   - Can the infrastructure running the machine learning process scale?
   - How is access to the ML algorithm provided? REST API? SDK?
 
 ---
 # Machine Learning Models
-  ## Instance Based
+  ### Instance Based
   - Self-Organizing Map (SOM)
   - k-nearest Neighbor (kNN)
   - Learning Vector Quantization (LVQ)
   - Locally Weighted Learning (LWL)
-  ## Decision Tree
+  ### Decision Tree
   - Random Forest
   - Classification and Regression Tree (CART)
   - Gradient Boosting Machines (GBM)
   - Conditional Decision Trees
   - Gradient Boosted Regression Trees (GBRT)
-  ## Clustering
+  ### Clustering
   - Validation
     - Data Structure Metrics
       - Silhouette Width
@@ -167,7 +167,7 @@
       - How many clusters do we select?
     - Fuzzy C-Means
     - Self-Organizing Maps (SOM)
-  ## Neural Networks
+  ### Neural Networks
   - Unit (Neurons)
   - Input Layer
   - Hidden Layers
@@ -188,7 +188,7 @@
       - Tanh
       - Softmax
       - Maxout
-  ## Regression
+  ### Regression
   - Logistic Regression
     - Logistic Function
   - Least Absolute Shrinkage and Selection Operator (LASSO)
@@ -196,14 +196,14 @@
   - Locally Estimated Scatterplot Smoothing (LOESS)
   - Linear Regression
   - Generalized Linear Models (GLMs)
-  ## Dimensionality Reduction
+  ### Dimensionality Reduction
   - Linear Discriminant Analysis (LDA)
   - Quadratic Discriminant Analysis (QDA)
   - Partial Least Squares Regression (PLSR)
   - Principal Component Analysis (PCA)
   - Partial Least Squares Regression (PLSR)
   - Partial Least Squares Discriminant Analysis
-  ## Bayesian
+  ### Bayesian
   - Bayesian Belief Network (BBN)
   - Naïve Bayes
     - Naïve Bayes Classifier
@@ -211,7 +211,7 @@
 
 ---
 # Machine Learning Mathematics
-  ## Cost/Lost(Min) Objective(Max) Functions
+  ### Cost/Lost(Min) Objective(Max) Functions
   - Kullback-geibier Divergence
   - Exponential
   - 0-1 Loss
@@ -222,20 +222,20 @@
   - Hinge Loss
   - Hellinger Distance
   - Itakura-Saito distance
-  ## Information Theory
+  ### Information Theory
   - Mutual Information
   - Joint Entropy
   - Entropy
   - Cross Entropy
   - Conditional Entropy
   - Kullback-Leibler Divergence
-  ## Statistics
+  ### Statistics
   - Central Limit Theorem
   - Techniques
   - Relationship
   - Measures of Central Tendency
   - Dispersion
-  ## Probability
+  ### Probability
   - Concepts
     - Chain Rule
     - Law of Total Probability
@@ -247,7 +247,7 @@
     - Independence
     - Conditionality
     - Marginalization
-  ## Linear Algebra
+  ### Linear Algebra
   - Curse of Dimensionality
   - Gradient
   - Derivatives Chain Rule
@@ -255,13 +255,13 @@
   - Elgenvectors and Elgenvalues
   - Jacobin Matric
   - Tensors
-  ## Optimization
+  ### Optimization
   - Mini-batch Stochastic Gradient Descent
   - Momentum
   - Gradient Descent
   - Stochastic Gradient Descent
   - Adagrad
-  ## Density Estimation
+  ### Density Estimation
   - Methods
     - Cubic Spline
     - Kernel Density Estimation
@@ -274,7 +274,7 @@
       - calculates kernel distributions for every sample point, and then adds all the distributions
   - Mostly Non-parametric. Parametric makes assumptions on my data/random variables fro instance that hey are normally distributed. Non-parametric does not.
   - The methods are generally intended for description rather than formal inference.
-  ## Regularization
+  ### Regularization
   - Mean=constrained regularization
   - Sparse regularizer on columns
   - Early Stopping
@@ -284,21 +284,21 @@
   - Nuclear norm regularization
   - Clustered mean=constrained regularization
   - Graph-based similarity
-  ## Distributions
+  ### Distributions
   - Cumulative Distribution Function (CDF)
   - Definition
   - Type (Density Function)
 
 ---
 # Machine Learning Data Processing
-  ## Feature Engineering
+  ### Feature Engineering
   - Reframe Numerical Quantities
   - Decompose
   - Discretization
     - Continuous Features
     - Categorical Features
   - Crossing
-  ## Dataset Construction
+  ### Dataset Construction
   - Validation Dataset
     - A set of parameters used to tune the parameters of a classifier
   - Training Dataset
@@ -306,7 +306,7 @@
   - Test Dataset
     - A set of examples used only to assess the performance of a fully trained classifier
   - Cross Validation
-  ## Data Exploration
+  ### Data Exploration
   - Univarriate Analysis
     - Continuous Features
     - Categorical Features
@@ -322,7 +322,7 @@
     - Finds out the relationship between two variables
   - Variable Identification
     - Identify Predictor (input) and target (output) variables. Next, identify the data type and category of the variables
-  ## Feature Selection
+  ### Feature Selection
   - Importance
     - Embedded Methods
       - Lasso regression
@@ -342,28 +342,28 @@
     - Singular Value Decomposition (SVD)
   - Correlation
     - Features should be uncorrelated with each other and highly correlated to the feature we're trying to predict.
-  ## Data Types
+  ### Data Types
 - Ratio - has all the properties of an interval variable, and also has a clear definition of 0.0.
 - Interval - is a measurement where the difference between two values is meaningful.
 - Ordinal - is one where the order matters but not the difference between values.
 - Nominal - is for mutual exclusive, but not ordered, categories
-  ## Feature Encoding
+  ### Feature Encoding
   - Label Encoding
     - One Hot Encoding
       - In One Hot Encoding, make sure the encodings are done in a way that all features are linearly independent.
   - Machine Learning algorithms perform Linear Algebra on Matrices, which means all features must be numeric. Encoding helps us do this.
-  ## Feature Cleaning
+  ### Feature Cleaning
   - Outliers
   - Missing values
   - Special values
   - Obvious inconsistencies
-  ## Feature Normalization or scaling
+  ### Feature Normalization or scaling
   - Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.
   - Methods
     - Rescaling
     - Standardization
     - Scaling to unit length
-  ## Feature Imputation
+  ### Feature Imputation
   - Some Libraries...
   - Mean-substitution
   - Hot-deck
