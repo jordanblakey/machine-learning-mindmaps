@@ -1,0 +1,81 @@
+Machine Learning Models
+	Instance Based
+		Self-Organising Map (SOM)
+		k-nearest Neighbour (kNN)
+		Learning Vecor Quantization (LVQ)
+		Locally Weighted Learning (LWL)
+	Decision Tree
+		Random Forest
+		Classification and Regression Tree (CART)
+		Gradient Boosting Machines (GBM)
+		Condistional Decision Trees
+		Gradient Boosted Regression Trees (GBRT)
+	Clustering
+		Validation
+			Data Structure Metrics
+				Silhouette Width
+				Dunn Index
+				Connectivity
+			Stability Metrics
+				Average Distance Between Means ADM
+				Non-overlap APN
+				Average Distance AO
+				Figure of Merit FOM
+		Algorithms
+			DBScan
+			Expectation Maximization
+			k-Medians
+			Hierarchical Clustering
+				Dissimilarity Measure
+					Euclidean
+					Manhattan
+				Linkage
+					Average
+					Complete
+					Single
+					Centroid
+			k-Means
+				How many clusters do we select?
+			Fuzzy C-Means
+			Self-Organising Maps (SOM)
+	Nueral Networks
+		Unit (Neurons)
+		Inut Layer
+		Hidden Layers
+		Batch Normalization
+		Learning Rate
+		Weight Initialization
+			All Zero Initialization
+			Linitialization with Smal Random Numbers
+			Calibrating the Variances
+		Backpropogation
+		Activation Functions
+			Defines the output of that node giveen ian input or set of inputs
+			Types
+				Softplus
+				Binary
+				ReLU
+				Sigmoid/Logistic
+				Tanh
+				Softmax
+				Maxout
+	Regression
+		Logistic Regression
+			Logistic Function
+		Least Absolute Shrinkage and Selection Operator (LASSO)
+		Ridge Regression
+		Locally Estimated Scatterplot Smoothing (LOESS)
+		Linear Regression
+		Generalised Linear Models (GLMs)
+	Dimensionality Reduction
+		Linear Discriminant Analysis (LDA)
+		Quadratic Discriminant Analysis (QDA)
+		Partial Least Squares Regression (PLSR)
+		Principal Component Analysis (PCA)
+		Partial Least Squares Regression (PLSR)
+		Partial Least Squares Discriminant Analysis
+	Bayesian
+		Bayesian Belief Network (BBN)
+		Naive Bayes
+			Naive Bayes Classifier
+		Multinominal Naive Bayes

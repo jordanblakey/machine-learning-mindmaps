@@ -1,0 +1,60 @@
+Machine Learning Process
+	Data
+		Build Datasets
+			Machine Learning is math. In specific, performing Linear Algebra on Matrices. Our data values must be numeric.
+		Encode Features
+		Select Features
+		Engineer Features
+		Impute Features
+		Find
+		Collect
+		Explore
+		Clean Features
+	Question
+		Reinforcement Learning: What should I do now?
+		Anomaly Detection: Is this anomalous?
+		Classification: Is this A or B?
+		Regression: How much, or how many of these?
+		Clustering: How can these elements be grouped?
+	Model
+		Select Algorithm based on question and data available
+	Cost Function
+		The cost function will provide a measure of how far my algorithm and its parameters are from accurately representing my training data.
+		Sometimes referred to as Cost or Loss function when the goal is to minimise it, or Objective function when the goal is to maximise it.
+	Results and Benchmarking
+	Optimization
+		Having selected a cost function, we need a method to minimise the Cost function, or maximise the Objective function when the goal is to maximise it.
+		The cost function will provide a measure of how far my algorithm and its parameters are from accurately representing my training data.
+	Direction
+		Machine Learning Research
+		SaaS: Pre-built Machine Learning models
+			...many others
+			AWS
+				Polly
+				Rekognition
+				Lex
+			Google Cloud
+				Language API
+				Jobs API
+				Vision API
+				Speech API
+				Video Intelligence API
+				Translation API
+		Data Science and Applied Machine Learning
+			Tools: Jupiter/Datalab/Zeppelin
+			Google Cloud
+				ML Engine
+			AWS
+				Amazon Machine Learning
+			...many others
+	Tuning
+		Different Algorithms have different Hyperparameters, which will affect the algorithms performance. There are multiple methods for Hyperparameter Tuning, such as Grid and Random search.
+	Scaling
+		How does my algorithm scale for both training and inference?
+	Deployment and Operationalisation
+		How can feature manipulation be done for training and inference in real-time?
+		How to make sure that the algorithm is retrained periodically and deployed
+	Infrastructure
+		Is the infrastructure adapter to be the algorithm we are running? Should GPUs be confidered rather than CPUs?
+		Can the infrastructure running the machine learning process scale?
+		How is access to the ML algorithm provided? REST API? SDK?

@@ -1,0 +1,78 @@
+Machine Learning Mathematics
+	Cost/Lost(Min) Objective(Max) Functions
+		Kullback-geibier Divergence
+		Exponential
+		0-1 Loss
+		Logistic
+		Maximum Likelihood Estimation (MLE)
+		Cross-Entropy
+		Quadratic
+		Hinge Loss
+		Hellinger Distance
+		Itakura-Saito distance
+	Information Theory
+		Mutual Information
+		Joint Entropy
+		Entropy
+		Cross Entropy
+		Conditional Entropy
+		Kullback-Leibler Divergence
+	Statistics
+		Central Limit Theorem
+		Techniques
+		Relationship
+		Measures of Central Tendency
+		Dispersion
+	Probability
+		Concepts
+			Chain Rule
+			Law of Total Probability
+			Bayes Theorem (rule, law)
+			Random Variable
+			Frequentist vs Bayesian Probability
+				Frequentist
+				Bayesian
+			Independence
+			Conditionality
+			Marginalization
+	Linear Algebra
+		Curse of Dimensionality
+		Gradient
+		Derivatives Chain Rule
+		Matrices
+		Elgenvectors and Elgenvalues
+		Jacobin Matric
+		Tensors
+	Optimization
+		Mini-batch Stochastic Gradient Descent
+		Momentum
+		Gradient Descent
+		Stochastic Gradient Descent
+		Adagrad
+	Density Estimation
+		Methods
+			Cubic Spline
+			Kernel Density Estimation
+				Uniform, Triangle, Quartic, Triweight, Gaussian, Cosine, others...
+				non-parametric
+				real-valued
+				 non-negative
+				it's a type of PDF that it is symmetric
+				integral over functionis equal to 1
+				calculates kernel distributions for every sample point, and then adds all the distributions
+		Postly Non-parametric. Parametric makes assumpsions on my data/ranbome variables fro instance that hey are normally distributed. Non-parametric doesnot.
+		The methods are generally intended for description rather than formal inference.
+	Regularization
+		Mean=constrained regularization
+		Sparse regularizer on columns
+		Early Stopping
+		L1 norm
+		L2 norm
+		Dropout
+		Nuclear norm regularization
+		Clustered mean=constrained regularization
+		Graph-based similarity
+	Distributions
+		Cumulative Distribution Function (CDF)
+		Definition
+		Type (Density Function)

@@ -1,0 +1,65 @@
+Macine Learning Concepts
+	Approaches
+		Learning classifier systems
+		Rule-based machine learning
+		Genetic algorithms
+		Sparse dictionary learning
+		Similariy and metric learning
+		Representation learning
+		Reinforcement learning
+		Bayesian networks
+		Clustering
+		Support vector machines
+		Inductive logic programming
+		Deep learning
+		Artificial neural networks
+		Decision tree learning
+		Association rule learning
+	Motivation
+		Prediction
+		Inference
+	Performance Analysis
+		Goodness of Fit = R^2
+		Bias-Variance Tradeoff
+		ROC Curve - Receiver Operating Characteritics
+		Confusion Matrix
+		Accuracy
+		f1 Score
+			Recall
+			Precision
+			Harmonic Mean of Precision and Recall
+		Mean Squared Error (MSE)
+		Error Rate
+	Taxonomy
+	Selection Criteria
+	Types
+		Regression
+		Classifiaction
+		Clustering
+		Density Estimation
+		Dimensionality Reduction
+	Tuning
+		Bagging
+		Underfitting
+		Early Stopping
+		Cross-validation
+		Hyperparameters
+		Overfitting
+		Bootstrap
+	Libraries
+		Python
+			Microsoft Cognitive Toolkit
+			Torch
+			Keras
+			MXNet
+			Scikit-learn
+			Numpy
+			Pandas
+			Tensorflow
+	Categories
+		Supervised
+		Unsupervised
+		Reinforcement Learning
+	Kind
+		Parametric
+		Non-Parametric

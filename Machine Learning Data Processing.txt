@@ -1,0 +1,79 @@
+Machine Learning Data Processing
+	Feature Engineering
+		Reframe Numerical Quantities
+		Decompose
+		Discretization
+			Continuous Features
+			Categorical Features
+		Crossing
+	Dataset Construction
+		Validation Dataset
+			A set of parameters used to tune the parameters of a classifier
+		Training Dataset
+			A set of examples used for learning.
+		Test Dataset
+			A set of examples used only to assess the performance of a fully trained classifier
+		Cross Validation
+	Data Exploration
+		Univarriate Analysis
+			Continuous Features
+			Categorical Features
+		Bi-variate Analysis
+			.
+				ANOVA
+				Z-Test/T-Test
+				Chi-Square Test
+				Stacked Column Chart
+				Two-way table
+			Correlation Plot - Heatmap
+			Scatter Plot
+			Finds out the relationship between two variables
+		Variable Identification
+			Identify Predictor (input) and target (output) vaiables. Next, identify the data type and category of the variables
+	Feature Selection
+		Importance
+			Embedded Methods
+				Lasso regression
+				Ridge regression
+			Filter Methods
+				ANOVA: Analysis of Variance
+				Correlation
+				Linear Discriminant Analysis
+				Chi-Square
+			Wrapper Methods
+				Recursive Feature Elimination
+				Forward Selection
+				Backward Elimination
+				Genetic Algorithms
+		Dimensionality Reduction
+			Principle Component Analysis
+			Singular Value Decomposition (SVD)
+		Correlation
+			Features should be uncorrelated with each other and highly correlated to the feature we're trying to predict.
+	Data Types
+		Ratio - has all the properties of an interval variable, and also has a clear definition of 0.0.
+		Interval - is a measurement where the difference between two values is meaningful.
+		Ordinal - is one where the order matters but not the difference between values.
+		Nominal - is for mutual exclusive, but not ordered, categories
+	Feature Encoding
+		Label Encoding
+			One Hot Encoding
+				In One Hot Encoding, make sure the encodings are done in a way that all features are linearly independent.
+		Machine Learning algorithms perform Linear Algebra on Matrices, which means all features must be numeric. Encoding helps us do this.
+	Feature Cleaning
+		Outliers
+		Missing values
+		Special values
+		Obvious inconsistencies
+	Feature Normalsation or scaling
+		Since the rancge of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. Another resaon why feature scaling is applied is that gradient descent converges much faster with feature scaling whan without it.
+		Methods
+			Rescaling
+			Standardization
+			Scaling to unit length
+	Feature Imputation
+		Some Libraries...
+		Mean-substitution
+		Hot-deck
+		Cold-deck
+		Regression
